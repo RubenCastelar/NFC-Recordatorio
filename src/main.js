@@ -450,7 +450,7 @@ function notificationSummary() {
   if (state.notificationPermission === "unsupported") {
     return "Este navegador no permite avisos";
   }
-  return "Avisos pendientes de permiso";
+  return "Activar avisos";
 }
 
 function appShell() {
